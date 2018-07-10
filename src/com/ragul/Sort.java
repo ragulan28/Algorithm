@@ -2,6 +2,7 @@ package com.ragul;
 
 public class Sort {
 
+    private int[] tempMergArr;
     public int[] insertionSort(int[] list) {
         int i, j, key, temp;
         for (i = 1; i < list.length; i++) {
@@ -55,7 +56,6 @@ public class Sort {
         }
         return list;
     }
-
 
 
 }
